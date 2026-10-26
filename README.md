@@ -117,10 +117,13 @@ Sample Output
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
-Program 2: Finding meomory used
+Program 1: Finding memory used
+
 Aim
 To write a Python program to find the memory used
 Program
+<img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/70628998-6f14-4410-a2b9-80b27e9c2eea" />
+
 ```python
 import tracemalloc
 
@@ -135,9 +138,7 @@ print("Current Memory:", current, "bytes")
 print("Peak Memory:", peak, "bytes")
 
 tracemalloc.stop()
-```
 Sample Output
-<img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/e5e37b0d-bf66-4823-9d5d-c1faf21d8bc4" />
 
 Back to Index
 ---
