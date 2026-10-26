@@ -32,6 +32,11 @@ INDEX
     <td>Finding Execution time</td>
     <td><a href="#program-1-finding-execution-time">Program 1</a></td>
   </tr>
+<tr>
+    <td>2</td>
+    <td>Finding memory used</td>
+    <td><a href="#program-2-finding-memory-used">Program 2</a></td>
+  </tr>
 
 </table>
 
