@@ -62,7 +62,31 @@ INDEX
     <td>Illustrate undirected weighted graph</td>
     <td><a href="#program-7-Illustrate-undireted-weighted-graph">Program 7</a></td>
   </tr>
-
+<tr>
+    <td>8</td>
+    <td>Illustrate directed weighted graph</td>
+    <td><a href="#program-8-Illustrate-directed-weighted-graph">Program 8</a></td>
+  </tr>
+<tr>
+    <td>9</td>
+    <td>Implementing BFS</td>
+    <td><a href="#program-9-Implementing-BFS">Program 9</a></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Implementing DFS</td>
+    <td><a href="#program-10-Implementing-DFS">Program 10</a></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Implementing Dijkstra fuction</td>
+    <td><a href="#program-11-Implementing-Dijkstra-function">Program 11</a></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Implementing Dijkstra function</td>
+    <td><a href="#program-12-Implementing-Bell-Man-Ford">Program 12</a></td>
+  </tr>
 </table>
 
 ---
