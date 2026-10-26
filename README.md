@@ -117,31 +117,28 @@ Sample Output
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
-Program 2: Largest of Three Numbers
+Program 2: Finding meomory used
 Aim
-To write a Python program to find the largest among three numbers.
+To write a Python program to find the memory used
 Program
 ```python
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
+import tracemalloc
 
-if a >= b and a >= c:
-    largest = a
-elif b >= a and b >= c:
-    largest = b
-else:
-    largest = c
+tracemalloc.start()
 
-print("Largest number =", largest)
+# Program
+a = [i for i in range(100000)]
+
+current, peak = tracemalloc.get_traced_memory()
+
+print("Current Memory:", current, "bytes")
+print("Peak Memory:", peak, "bytes")
+
+tracemalloc.stop()
 ```
 Sample Output
-```text
-Enter first number: 10
-Enter second number: 25
-Enter third number: 15
-Largest number = 25
-```
+<img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/e5e37b0d-bf66-4823-9d5d-c1faf21d8bc4" />
+
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
