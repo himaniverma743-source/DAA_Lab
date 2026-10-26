@@ -38,22 +38,28 @@ INDEX
 ---
 <div style="page-break-after: always;"></div>
 Program 1: Finding execution time
+
 Aim
 To write a Python program to find the excution time
 Program
+
 ```python
 import time
+
 start = time.time()
+
 for i in range(1000000):
     pass
+
 end = time.time()
+
 print("Execution Time:", end - start, "seconds")
 ```
 Sample Output
-```text
+
 <img width="383" height="37" alt="image" src="https://github.com/user-attachments/assets/1b1605d9-5103-4dfc-b09c-e7423fd99e60" />
 
-```
+
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
