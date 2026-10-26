@@ -37,6 +37,31 @@ INDEX
     <td>Finding memory used</td>
     <td><a href="#program-2-finding-memory-used">Program 2</a></td>
   </tr>
+<tr>
+    <td>3</td>
+    <td>Creating graph</td>
+    <td><a href="#program-3-creating-graph">Program 3</a></td>
+  </tr>
+<tr>
+    <td>4</td>
+    <td>Multiple graph</td>
+    <td><a href="#program-4-Multiple-graph">Program 4</a></td>
+  </tr>
+<tr>
+    <td>5</td>
+    <td>Illustrate Undirected graph</td>
+    <td><a href="#program-5-Illustrate-undirected-graph">Program 5</a></td>
+  </tr>
+<tr>
+    <td>6</td>
+    <td>Illustrate directed graph</td>
+    <td><a href="#program-6-Illustrate-directed-graph">Program 6</a></td>
+  </tr>
+<tr>
+    <td>7</td>
+    <td>Illustrate undirected weighted graph</td>
+    <td><a href="#program-7-Illustrate-undireted-weighted-graph">Program 7</a></td>
+  </tr>
 
 </table>
 
