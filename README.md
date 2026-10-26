@@ -122,7 +122,6 @@ Program 1: Finding memory used
 Aim
 To write a Python program to find the memory used
 Program
-<img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/70628998-6f14-4410-a2b9-80b27e9c2eea" />
 
 ```python
 import tracemalloc
@@ -139,6 +138,8 @@ print("Peak Memory:", peak, "bytes")
 
 tracemalloc.stop()
 Sample Output
+<img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/92ad0b01-ea17-4b77-8cde-e6fe5691e075" />
+
 
 Back to Index
 ---
