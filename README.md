@@ -117,7 +117,7 @@ Sample Output
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
-Program 1: Finding memory used
+Program 2: Finding memory used
 
 Aim
 To write a Python program to find the memory used
@@ -140,85 +140,28 @@ tracemalloc.stop()
 Sample Output
 <img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/92ad0b01-ea17-4b77-8cde-e6fe5691e075" />
 
-
 Back to Index
 ---
 <div style="page-break-after: always;"></div>
-Program 3: Factorial of a Number
+Program 3: Creating graph
+
 Aim
-To write a Python program to calculate the factorial of a given number.
+To write a Python program to Creating graph
 Program
+
 ```python
-n = int(input("Enter a number: "))
+# Simple Line Graph using Text
 
-fact = 1
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 15, 30, 25]
 
-for i in range(1, n + 1):
-    fact = fact \* i
+print("Simple Line Graph")
+print("X-axis:", x)
+print("Y-axis:", y)
+print()
 
-print("Factorial =", fact)
-```
+for i in range(len(x)):
+    print("X =", x[i], "Y =", y[i])
 Sample Output
-```text
-Enter a number: 5
-Factorial = 120
-```
-Back to Index
----
-<div style="page-break-after: always;"></div>
-Program 4: Prime Number Check
-Aim
-To write a Python program to check whether a given number is prime or not.
-Program
-```python
-n = int(input("Enter a number: "))
+<img width="264" height="223" alt="image" src="https://github.com/user-attachments/assets/a0e2a804-71d6-4c0c-b3a1-6d4ad5394575" />
 
-prime = True
-
-if n < 2:
-    prime = False
-else:
-    for i in range(2, n):
-        if n % i == 0:
-            prime = False
-            break
-
-if prime:
-    print(n, "is a Prime Number")
-else:
-    print(n, "is not a Prime Number")
-```
-Sample Output
-```text
-Enter a number: 7
-7 is a Prime Number
-```
-Back to Index
----
-<div style="page-break-after: always;"></div>
-Program 5: Fibonacci Series
-Aim
-To write a Python program to generate the Fibonacci series.
-Program
-```python
-n = int(input("Enter number of terms: "))
-
-a = 0
-b = 1
-
-for i in range(n):
-    print(a, end=" ")
-    a, b = b, a + b
-```
-Sample Output
-```text
-Enter number of terms: 7
-0 1 1 2 3 5 8
-```
-Back to Index
----
-Example:
-```python
-class Student:
-    def display(self):
-        print("Hello")
