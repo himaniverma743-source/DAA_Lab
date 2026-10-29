@@ -140,10 +140,11 @@ tracemalloc.stop()
 Sample Output
 <img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/92ad0b01-ea17-4b77-8cde-e6fe5691e075" />
 
-Back to Index
+
+back to index
 ---
 <div style="page-break-after: always;"></div>
-Program 3: Creating graph
+Program 3: creating graph
 
 Aim
 To write a Python program to Creating graph
@@ -162,6 +163,5 @@ print()
 
 for i in range(len(x)):
     print("X =", x[i], "Y =", y[i])
+```
 Sample Output
-<img width="264" height="223" alt="image" src="https://github.com/user-attachments/assets/a0e2a804-71d6-4c0c-b3a1-6d4ad5394575" />
-
