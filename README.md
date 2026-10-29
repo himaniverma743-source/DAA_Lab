@@ -124,6 +124,7 @@ To write a Python program to find the memory used
 Program
 
 ```python
+
 import tracemalloc
 
 tracemalloc.start()
@@ -140,14 +141,15 @@ tracemalloc.stop()
 Sample Output
 <img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/92ad0b01-ea17-4b77-8cde-e6fe5691e075" />
 
+```
 
-**Back to Index**
+Back to Index
 ---
 <div style="page-break-after: always;"></div>
-Program 3: creating graph
+Program 3: Creating graph
 
 Aim
-To write a Python program to Creating graph
+To write a Python program to creating graph
 Program
 
 ```python
@@ -165,3 +167,5 @@ for i in range(len(x)):
     print("X =", x[i], "Y =", y[i])
 ```
 Sample Output
+<img width="264" height="223" alt="WhatsApp Image 2026-10-26 at 4 36 19 PM" src="https://github.com/user-attachments/assets/41ca4739-a18c-43e6-9dbe-e0b2398b6fb0" />
+
