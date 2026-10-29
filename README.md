@@ -84,7 +84,7 @@ INDEX
   </tr>
   <tr>
     <td>12</td>
-    <td>Implementing Dijkstra function</td>
+    <td>Implementing Bell-Man-Ford</td>
     <td><a href="#program-12-Implementing-Bell-Man-Ford">Program 12</a></td>
   </tr>
 </table>
@@ -165,7 +165,37 @@ print()
 
 for i in range(len(x)):
     print("X =", x[i], "Y =", y[i])
-```
+
 Sample Output
 <img width="264" height="223" alt="WhatsApp Image 2026-10-26 at 4 36 19 PM" src="https://github.com/user-attachments/assets/41ca4739-a18c-43e6-9dbe-e0b2398b6fb0" />
+```
 
+Back to Index
+---
+<div style="page-break-after: always;"></div>
+Program 4: Multiple graph
+
+Aim
+To write a Python program to Multiple graph<
+Program
+
+```python
+import math
+
+x = [1, 2, 3, 4, 5]
+
+y1 = [math.log(i) for i in x]
+y2 = [i for i in x]
+y3 = [i * math.log(i) for i in x]
+y4 = [i * i for i in x]
+
+print("Line Graph Data")
+print("X\tlog(x)\tx\txlog(x)\tx^2")
+
+for i in range(len(x)):
+    print(x[i], "\t", round(y1[i], 2), "\t",
+          y2[i], "\t", round(y3[i], 2), "\t", y4[i])
+Sample Output
+<img width="264" height="182" alt="WhatsApp Image 2026-10-26 at 4 39 16 PM" src="https://github.com/user-attachments/assets/168eb596-26a6-4d77-919d-0e3507a07993" />
+
+```
