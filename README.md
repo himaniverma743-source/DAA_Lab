@@ -141,7 +141,7 @@ Sample Output
 <img width="267" height="54" alt="image" src="https://github.com/user-attachments/assets/92ad0b01-ea17-4b77-8cde-e6fe5691e075" />
 
 
-back to index
+**Back to Index**
 ---
 <div style="page-break-after: always;"></div>
 Program 3: creating graph
