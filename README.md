@@ -87,6 +87,16 @@ INDEX
     <td>Implementing Bell-Man-Ford</td>
     <td><a href="#program-12-Implementing-Bell-Man-Ford">Program 12</a></td>
   </tr>
+   <tr>
+    <td>13</td>
+    <td>Dynamic Programming</td>
+    <td><a href="#program-13-Dynamic-Programming">Program 13</a></td>
+  </tr>
+   <tr>
+    <td>14</td>
+    <td>Dynamic Programming</td>
+    <td><a href="#program-14-Recursion">Program 14</a></td>
+  </tr>
 </table>
 
 ---
