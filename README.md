@@ -94,7 +94,7 @@ INDEX
   </tr>
    <tr>
     <td>14</td>
-    <td>Dynamic Programming</td>
+    <td>Recursion</td>
     <td><a href="#program-14-Recursion">Program 14</a></td>
   </tr>
 </table>
@@ -719,5 +719,56 @@ if distance is not None:
 ```
 Sample Output
 <img width="253" height="290" alt="WhatsApp Image 2026-10-26 at 4 53 27 PM" src="https://github.com/user-attachments/assets/13d39585-1ab1-45c8-9e20-dd4c5892bcfb" />
+
+
+
+Back to Index
+---
+<div style="page-break-after: always;"></div>
+Program 13: Dynamic Programming
+
+Aim
+To write a Python program to Dynamic Programming
+Program
+
+```python
+
+def fib(n):
+    dp = [0] * (n + 1)
+
+    if n >= 1:
+        dp[1] = 1
+
+    for i in range(2, n + 1):
+        dp[i] = dp[i-1] + dp[i-2]
+
+    return dp[n]
+
+
+print(fib(5))
+```
+Sample output
+<img width="140" height="113" alt="image" src="https://github.com/user-attachments/assets/a767e805-cb24-46a3-a793-16e027efe067" />
+Back to Index
+---
+<div style="page-break-after: always;"></div>
+Program 14: Recursion
+Aim
+To write a Python program to Recursion
+Program
+
+```python
+
+def fib(n):
+    if n <= 1:
+        return n
+
+    return fib(n-1) + fib(n-2)
+
+
+print(fib(5))
+```
+Sample output
+<img width="118" height="93" alt="image" src="https://github.com/user-attachments/assets/4a280705-cc80-443f-a94b-13360bfb8a32" />
 
 
